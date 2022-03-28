@@ -45,3 +45,24 @@ const questionFour = {
     answer: 'Ответ',
     correctAnswer: 'Правильный Ответ'
 };
+/* задача 3.1*/
+a = 0;
+
+if (a === 0) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+
+
+
+for (step = 1; step <= 20; step++) {
+    // Запускается 5 раз, с шагом от 0 до 4.
+    console.log(step);
+}
+
+if (step % 2) {
+    console.log('переменная - четная');
+} else {
+    console('переменная - нечетная');
+}
