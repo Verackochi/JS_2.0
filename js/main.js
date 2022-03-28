@@ -1,6 +1,10 @@
 let welcome = "start project";
 alert(welcome);
 
+
+let num 
+    score
+
 /*
 object #1
 */
