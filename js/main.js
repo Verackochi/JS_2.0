@@ -11,7 +11,13 @@ object #1
 
 const questionOne = {
     question: 'Вопрос',
-    answer: 'Ответ',
+    answer: [{
+        a: Ответ
+    }, {
+        b: Ответ
+    }, {
+        c: Ответ
+    }],
     correctAnswer: 'Правильный Ответ'
 };
 
@@ -22,7 +28,13 @@ object #2
 
 const questionTwo = {
     question: 'Вопрос',
-    answer: 'Ответ',
+    answer: [{
+        a: Ответ
+    }, {
+        b: Ответ
+    }, {
+        c: Ответ
+    }]
     correctAnswer: 'Правильный Ответ'
 };
 
@@ -32,7 +44,13 @@ object #3
 
 const questionThree = {
     question: 'Вопрос',
-    answer: 'Ответ',
+   answer: [{
+       a: Ответ
+   }, {
+       b: Ответ
+   }, {
+       c: Ответ
+   }]
     correctAnswer: 'Правильный Ответ'
 };
 
@@ -42,9 +60,20 @@ object #4
 
 const questionFour = {
     question: 'Вопрос',
-    answer: 'Ответ',
+    answer: [{
+        a: Ответ
+    }, {
+        b: Ответ
+    }, {
+        c: Ответ}]
     correctAnswer: 'Правильный Ответ'
 };
+
+arrayQuestions = questionTwo.map
+
+let someUsers = arrayQuestions.filter(c);
+
+
 /* задача 3.1*/
 a = 0;
 
@@ -65,4 +94,6 @@ if (step % 2) {
     console.log('переменная - четная');
 } else {
     console('переменная - нечетная');
-}
+};
+
+
